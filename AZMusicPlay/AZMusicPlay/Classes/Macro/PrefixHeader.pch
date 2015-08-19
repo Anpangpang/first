@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  AZMusicPlay
+//
+//  Created by lanou3g on 15/8/11.
+//  Copyright (c) 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef AZMusicPlay_PrefixHeader_pch
+#define AZMusicPlay_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Header.h"
+#import "MusicModel.h"
+#import "UIImageView+WebCache.h"
+#import "MusicManager.h"
+#import "MusicPlayManager.h"
+#import <AVFoundation/AVFoundation.h>
+#import "lyricModel.h"
+#import "musicLyric.h"
+#endif
